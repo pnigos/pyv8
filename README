@@ -1,6 +1,7 @@
 Please refer to http://code.google.com/p/pyv8/ for more detail
 
-sudo apt-get purge libv8-3.14.5 libv8-dev
-$ cd pyv8-read-only
+sudo apt-get purge libv8-dev
+sudo apt-get install libboost-all-dev
+$ cd pyv8
 $ python setup.py build
 $ sudo setup.py install
